@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Возможности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что умеет наш редактор</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "ИИ-генерация слайдов",
+              description: "Опишите идею — ИИ создаст структуру и дизайн презентации за секунды",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Тысячи шаблонов",
+              description: "Профессиональные шаблоны для бизнеса, питчей, отчётов и обучения",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Совместная работа",
+              description: "Редактируйте презентации вместе с командой в реальном времени",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Экспорт в любой формат",
+              description: "Скачайте в PPTX, PDF или поделитесь ссылкой на онлайн-презентацию",
               direction: "bottom",
             },
           ].map((service, i) => (
